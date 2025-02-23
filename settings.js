@@ -8,7 +8,7 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'SPARKY'S BOT GROUP' 
+global.botname = process.env.BOT_NAME || 'SPARKY BOT GROUP' 
 //Your desired bot name
 
 //=================================================//
@@ -28,10 +28,10 @@ global.ownername = process.env.OWNER_NAME || 'ASWIN SPARKY'
 global.plink = process.env.PLINK || "https://www.instagram.com/sparky.drip"
 
 //=================================================//
-global.wm = process.env.GL_WM || "SPARKY'S BOT GROUP"
+global.wm = process.env.GL_WM || "SPARKY BOT GROUP"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "SPARKY'S BOT GROUP" 
+global.packname = process.env.STICKER_PACK_NAME || "SPARKY BOT GROUP" 
 //The sticker pack name
 
 //=================================================//
@@ -113,7 +113,7 @@ global.menustyle = process.env.MENU_STYLE || '2'
 //Replies
 global.mess = { 
   done: '*Done*', 
-  success: 'SPARKY'S BOT GROUP', 
+  success: 'SPARKY BOT GROUP', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
