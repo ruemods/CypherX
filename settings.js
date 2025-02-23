@@ -1,14 +1,3 @@
-  //project_name : CypherX
-// @author : TYLOR
-// @youtube : https://www.youtube.com/@heyits_tylor
-// @instagram : heyits_tylor
-// @telegram : t.me/heyits_tylor
-// @github : Dark-Xploit
-// @tiktok : heyits_tylor
-// @whatsapp : +254754783972
-//*
-//* 
-//=================================================//
 const fs = require('fs')
 const { color } = require('./lib/color')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
@@ -19,34 +8,34 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'SPARKY'S BOT GROUP' 
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '917012984396' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '254712345678'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['917012984396', '917511107276'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'ASWIN SPARKY' 
 //Type your name here
 
 //=================================================//
-global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh=YzljYTk1ODg3Zg=="
+global.plink = process.env.PLINK || "https://www.instagram.com/sparky.drip"
 
 //=================================================//
-global.wm = process.env.GL_WM || "©CypherX"
+global.wm = process.env.GL_WM || "SPARKY'S BOT GROUP"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "SPARKY'S BOT GROUP" 
 //The sticker pack name
 
 //=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "X" 
+global.author = process.env.STICKER_AUTHOR_NAME || "SPARKY" 
 //The sticker author name
 
 //=================================================//
@@ -69,11 +58,11 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 // set true to enable and false to disable auto status view
 
 //=================================================//
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //=================================================//
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
@@ -82,21 +71,21 @@ global.chatbot = process.env.CHATBOT || 'false'
 // set true to enable and false to disable auto ai chatbot
 
 //=================================================//
-global.antidelete = process.env.ANTIDELETE || 'private'
+global.antidelete = process.env.ANTIDELETE || 'off'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
 // off = Disables detection of deleted messages
 
 //=================================================//
-global.antiedit = process.env.ANTI_EDIT || 'private'
+global.antiedit = process.env.ANTI_EDIT || 'off'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
 // off = Disables detection of edited messages
 
 //=================================================//
-global.anticall = process.env.ANTI_CALL || 'false'
+global.anticall = process.env.ANTI_CALL || 'true'
 // set true to enable and false to disable auto blocking of callers
 
 //=================================================//
@@ -124,7 +113,7 @@ global.menustyle = process.env.MENU_STYLE || '2'
 //Replies
 global.mess = { 
   done: '*Done*', 
-  success: '©CypherX', 
+  success: 'SPARKY'S BOT GROUP', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
