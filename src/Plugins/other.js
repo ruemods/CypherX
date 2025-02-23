@@ -91,7 +91,7 @@ module.exports = [
       const latency = `${(endTime - startTime).toFixed(2)} ms`;
       
       await Cypher.sendMessage(m.chat, {
-        text: `*🔹 CypherX Speed:* ${latency}`,
+        text: `*latency :* ${latency}`,
         edit: sentMessage.key, 
         contextInfo: { quotedMessage: m.message }
       });
